@@ -1,0 +1,14 @@
+C:\_repos\database-manager\database-manager\bin\Debug\net8.0\database-manager.exe
+C:\_repos\database-manager\database-manager\bin\Debug\net8.0\database-manager.deps.json
+C:\_repos\database-manager\database-manager\bin\Debug\net8.0\database-manager.runtimeconfig.json
+C:\_repos\database-manager\database-manager\bin\Debug\net8.0\database-manager.dll
+C:\_repos\database-manager\database-manager\bin\Debug\net8.0\database-manager.pdb
+C:\_repos\database-manager\database-manager\obj\Debug\net8.0\database-manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\_repos\database-manager\database-manager\obj\Debug\net8.0\database-manager.AssemblyInfoInputs.cache
+C:\_repos\database-manager\database-manager\obj\Debug\net8.0\database-manager.AssemblyInfo.cs
+C:\_repos\database-manager\database-manager\obj\Debug\net8.0\database-manager.csproj.CoreCompileInputs.cache
+C:\_repos\database-manager\database-manager\obj\Debug\net8.0\database-manager.dll
+C:\_repos\database-manager\database-manager\obj\Debug\net8.0\refint\database-manager.dll
+C:\_repos\database-manager\database-manager\obj\Debug\net8.0\database-manager.pdb
+C:\_repos\database-manager\database-manager\obj\Debug\net8.0\database-manager.genruntimeconfig.cache
+C:\_repos\database-manager\database-manager\obj\Debug\net8.0\ref\database-manager.dll
