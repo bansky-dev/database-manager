@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("database-manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44c290ec52c81ceb7e38be9b99d18809a8f21ca6")]
 [assembly: System.Reflection.AssemblyProductAttribute("database-manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("database-manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
