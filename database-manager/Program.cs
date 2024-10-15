@@ -1,6 +1,12 @@
-﻿using System;
+﻿// CHANGES:
+// 1. Imrpoved the UI
+
+
+using System;
 using System.Data.SqlClient;
 using System.Text.Json;
+using MySql.Data.MySqlClient;
+
 
 namespace database_manager;
 
@@ -45,7 +51,7 @@ class Program
 public class Database
 {
     public static string ServerName {get; set;}
-    public static string Name {get; set;}
+    public static string NameDb {get; set;}
     public static string Username {get; set;}
     public static string Password {get; set;}
 
@@ -53,25 +59,25 @@ public class Database
 
 
     public static void Connect(){
+        
+    string connectionString = $"Server={Database.ServerName}; Database={Database.NameDb}; Uid={Database.Username}; Pwd={Database.Password};";
 
-        string connectionString = $"Data Source={Database.ServerName}; Initial Catalog={Database.Name}; User ID={Database.Username}; Password={Database.Password}";
-
-        using (SqlConnection connection = new SqlConnection(connectionString))
+    using (MySqlConnection connection = new MySqlConnection(connectionString))
+    {
+        try
         {
-            try
-            {
-                connection.Open();
-                Console.WriteLine("Connection successful!");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Connection failed: " + ex.Message);
-            }
-
-            //TODO: NEEDS DEBUGGING
+            connection.Open();
+            Console.WriteLine("Connection successful!");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Connection failed: " + ex.Messeage);
         }
 
+        //TODO: Something is wrong with the connecting function. This may be an Program or Server issue. NEEDS FIXING
     }
+}
+
 
 }
 
@@ -83,7 +89,7 @@ public class Menu
         Console.WriteLine("[2] Add new database");
         Console.WriteLine("[3] Delete existing database connection");
         Console.WriteLine("[4] Direct connect");
-        Console.Write("Choice");
+        Console.Write("Choice: ");
     }
 }
 

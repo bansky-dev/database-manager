@@ -1,6 +1,6 @@
 {
-    "ServerName": "DESKTOP-DOMINIK",
-    "Name": "hotel",
-    "Username": "root@localhost",
-    "Password": ""
+    "ServerName": "localhost",
+    "NameDb": "program_database",
+    "Username": "root",
+    "Password": "admin"
 }
